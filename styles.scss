@@ -4,14 +4,14 @@ $red: #9F0F17;
 $blue: #094A8F;
 $green: #00A74A;
 
-$margin-buttons: -0px;
+$margin-buttons: 8px;
 
 body {
 	background-color: $background-color;
 	text-align: center;
 	margin: auto auto;
 	width:50%;
-	font-family: 'Noto Sans', sans-serif;
+	font-family: 'Arvo', sans-serif;
 }
 
 h1 {
@@ -20,7 +20,7 @@ h1 {
 .board {
 	position: relative;
 	width:500px;
-	height:510px;
+	height:500px;
 	margin: 0 auto;
 	border-radius: 50%;
 	background: #333333;
@@ -70,5 +70,19 @@ h1 {
 	top:25%;
 	left:25%;
 	border-radius:50%;
-	pointer-events:none;
+	font-family: 'Arvo', cursive;
+	font-weight: bold;
+}
+
+i {
+	display: block;
+}
+
+#toggle-on {display: none;}
+#start-button {
+	border-radius: 15%;
+	background-color:#32CD32;
+	width:30%;
+	color:white;
+	margin: 0 auto;
 }

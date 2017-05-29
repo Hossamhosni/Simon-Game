@@ -3,7 +3,7 @@ body {
   text-align: center;
   margin: auto auto;
   width: 50%;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Arvo', sans-serif;
 }
 
 h1 {
@@ -13,7 +13,7 @@ h1 {
 .board {
   position: relative;
   width: 500px;
-  height: 510px;
+  height: 500px;
   margin: 0 auto;
   border-radius: 50%;
   background: #333333;
@@ -27,29 +27,29 @@ h1 {
 
 .green {
   background-color: #00A74A;
-  top: 0px;
-  left: 0px;
+  top: 8px;
+  left: 8px;
   border-radius: 100% 0 0 0;
 }
 
 .red {
   background-color: #9F0F17;
-  top: 0px;
-  right: 0px;
+  top: 8px;
+  right: 8px;
   border-radius: 0 100% 0 0;
 }
 
 .yellow {
   background-color: #CCA707;
-  bottom: 0px;
-  left: 0px;
+  bottom: 8px;
+  left: 8px;
   border-radius: 0 0 0 100%;
 }
 
 .blue {
   background-color: #094A8F;
-  bottom: 0px;
-  right: 0px;
+  bottom: 8px;
+  right: 8px;
   border-radius: 0 0 100% 0;
 }
 
@@ -63,5 +63,22 @@ h1 {
   top: 25%;
   left: 25%;
   border-radius: 50%;
-  pointer-events: none;
+  font-family: 'Arvo', cursive;
+  font-weight: bold;
+}
+
+i {
+  display: block;
+}
+
+#toggle-on {
+  display: none;
+}
+
+#start-button {
+  border-radius: 15%;
+  background-color: #32CD32;
+  width: 30%;
+  color: white;
+  margin: 0 auto;
 }

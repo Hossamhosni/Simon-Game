@@ -11,17 +11,25 @@
 	<body>
 		<h1>Simon Game</h1>
 		<div class="board">
-			<div class="button blue" id="1"></div>
-			<div class="button red" id="2"></div>
-			<div class="button yellow" id="3"></div>
-			<div class="button green" id="4"></div>
+			<div class="button blue" id="0"></div>
+			<div class="button red" id="1"></div>
+			<div class="button yellow" id="2"></div>
+			<div class="button green" id="3"></div>
 			<div class="middle">
 				<h2>Simon</h2>
 				<label id="start-stop">Start</label>
 				<br />
 				<i class="fa fa-2x fa-toggle-off" id="toggle-off" aria-hidden="true"></i>
-				<i class="fa fa-2x fa-toggle-on" id="toggle-on" aria-hidden="true"></i>
-			</div>
+				<i class="fa fa-2x fa-toggle-on" id="toggle-on" aria-hidden="true"></i><br>
+				<div id="strict"/>
+					<p>
+						Strict Mode
+					</p>
+				</div>
+				<p id="count">
+					Count: 0
+				</p>
+
 		</div>
 		<script
   	src="https://code.jquery.com/jquery-3.2.1.js"

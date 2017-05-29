@@ -82,3 +82,13 @@ i {
   color: white;
   margin: 0 auto;
 }
+
+#strict {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  width: 50%;
+  margin: 0 auto;
+}

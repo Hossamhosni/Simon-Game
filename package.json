@@ -1,0 +1,14 @@
+{
+  "name": "simon-game",
+  "version": "1.0.0",
+  "description": "A JS Simon Game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hossam Hosny",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}

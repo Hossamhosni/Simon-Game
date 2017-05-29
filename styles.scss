@@ -1,0 +1,74 @@
+$background-color: #DCDCDC;
+$yellow: #CCA707;
+$red: #9F0F17;
+$blue: #094A8F;
+$green: #00A74A;
+
+$margin-buttons: -0px;
+
+body {
+	background-color: $background-color;
+	text-align: center;
+	margin: auto auto;
+	width:50%;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+h1 {
+	font-size: 300%;
+}
+.board {
+	position: relative;
+	width:500px;
+	height:510px;
+	margin: 0 auto;
+	border-radius: 50%;
+	background: #333333;
+}
+
+.button {
+	position: absolute;
+	width: 48%;
+	height: 48%;
+}
+
+.green {
+	background-color: $green;
+	top: $margin-buttons;
+	left: $margin-buttons;
+	border-radius:100% 0 0 0;
+}
+
+.red {
+	background-color: $red;
+	top: $margin-buttons;
+	right: $margin-buttons;
+	border-radius:0 100% 0 0;
+}
+
+.yellow {
+	background-color: $yellow;
+	bottom: $margin-buttons;
+	left: $margin-buttons;
+	border-radius:0 0 0 100%;
+}
+
+.blue {
+	background-color: $blue;
+	bottom: $margin-buttons;
+	right: $margin-buttons;
+	border-radius:0 0 100% 0;
+}
+
+.middle {
+	width:50%;
+	height:50%;
+	background-color:#ECE7EE;
+	border-color: #333333;
+	border: 5px solid #333333;
+	position:absolute;
+	top:25%;
+	left:25%;
+	border-radius:50%;
+	pointer-events:none;
+}
